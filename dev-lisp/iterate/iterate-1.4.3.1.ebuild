@@ -28,5 +28,5 @@ src_prepare() {
 src_install() {
 	common-lisp-install-sources *.lisp
 	common-lisp-install-asdf
-	dodoc doc/*.pdf
+	#dodoc doc/*.pdf
 }
